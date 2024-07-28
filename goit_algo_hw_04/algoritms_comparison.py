@@ -63,7 +63,6 @@ def compare_algorithms(sizes, data_type='random'):
 
         print(f"{size:10d} | {insertion_time:15.6f} | {merge_time:15.6f} | {timsort_time:15.6f}")
 
-# Тестування алгоритмів
 sizes = [100, 500, 1000, 5000, 10000]
 compare_algorithms(sizes, 'random')
 compare_algorithms(sizes, 'sorted')
